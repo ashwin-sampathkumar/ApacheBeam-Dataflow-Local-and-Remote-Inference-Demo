@@ -1,6 +1,6 @@
 # Apache Beam Bulk ML Inference with Gemini & ShieldGemma 2 on Dataflow
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashwin-sampathkumar/ApacheBeam-Dataflow-Demos/blob/main/notebooks/beam_bulk_ml_inference_gemini_shieldgemma.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashwin-sampathkumar/ApacheBeam-Dataflow-Local%26Remote%20Inference-Demo/blob/main/notebooks/beam_bulk_ml_inference_gemini_shieldgemma.ipynb)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-brightgreen.svg)](https://www.python.org/)
 [![Apache Beam](https://img.shields.io/badge/Apache%20Beam-2.59%2B-orange.svg)](https://beam.apache.org/)
@@ -80,7 +80,7 @@ This project incorporates architectural recommendations for production ML pipeli
 ## 📁 Repository Structure
 
 ```
-ApacheBeam-Dataflow-Demos/
+ApacheBeam-Dataflow-Local&Remote Inference-Demo/
 ├── README.md                      # Project documentation and architecture guide
 ├── LICENSE                        # Apache 2.0 License
 ├── .gitignore                     # Git ignore rules for Python, Beam, and Jupyter
@@ -123,7 +123,7 @@ ShieldGemma 2 is a gated model:
 ### Option A: Google Colab (Interactive)
 The easiest way to explore this pipeline interactively is via Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashwin-sampathkumar/ApacheBeam-Dataflow-Demos/blob/main/notebooks/beam_bulk_ml_inference_gemini_shieldgemma.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashwin-sampathkumar/ApacheBeam-Dataflow-Local%26Remote%20Inference-Demo/blob/main/notebooks/beam_bulk_ml_inference_gemini_shieldgemma.ipynb)
 
 1. Open the notebook in Colab.
 2. Select a GPU runtime (**Runtime > Change runtime type > T4 or L4 GPU**).
@@ -139,8 +139,8 @@ Run a quick end-to-end smoke test on a small subset of BigQuery Google Trends da
 
 ```bash
 # Clone the repository
-git clone https://github.com/ashwin-sampathkumar/ApacheBeam-Dataflow-Demos.git
-cd ApacheBeam-Dataflow-Demos
+git clone "https://github.com/ashwin-sampathkumar/ApacheBeam-Dataflow-Local&Remote Inference-Demo.git"
+cd "ApacheBeam-Dataflow-Local&Remote Inference-Demo"
 
 # Install dependencies
 pip install -r pipeline/requirements.txt
