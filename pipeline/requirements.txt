@@ -1,0 +1,21 @@
+# Apache Beam with Google Cloud Platform support
+apache-beam[gcp]>=2.59.0
+
+# Google GenAI SDK (for Gemini 2.5 Flash / Flash Image)
+google-genai>=0.1.0
+
+# PyTorch and Hugging Face Transformers for local GPU ShieldGemma 2 inference
+torch>=2.2.0
+transformers>=4.45.0
+accelerate>=0.28.0
+
+# Optional 4-bit/8-bit quantization for GPU memory optimization (e.g. 15GB T4 GPUs)
+bitsandbytes>=0.43.0
+
+# Image processing & utilities
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Google Cloud client libraries
+google-cloud-bigquery>=3.20.0
+google-cloud-storage>=2.14.0
